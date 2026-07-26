@@ -1,0 +1,51 @@
+StaffID,Name,Role,CurrentShift,IsBusy
+1,Personal_1,Asistent,Noapte,0
+2,Personal_2,Cardiolog,Zi,1
+3,Personal_3,Asistent,Zi,0
+4,Personal_4,Medic Urgentist,Zi,0
+5,Personal_5,Chirurg,Noapte,0
+6,Personal_6,Brancardier,Zi,0
+7,Personal_7,Medic Urgentist,Noapte,1
+8,Personal_8,Medic Urgentist,Zi,1
+9,Personal_9,Asistent,Noapte,0
+10,Personal_10,Asistent,Zi,1
+11,Personal_11,Brancardier,Noapte,0
+12,Personal_12,Neurolog,Zi,0
+13,Personal_13,Neurolog,Noapte,1
+14,Personal_14,Medic Urgentist,Zi,0
+15,Personal_15,Neurolog,Noapte,1
+16,Personal_16,Asistent,Zi,1
+17,Personal_17,Medic Urgentist,Noapte,0
+18,Personal_18,Brancardier,Zi,0
+19,Personal_19,Medic Urgentist,Zi,0
+20,Personal_20,Neurolog,Zi,0
+21,Personal_21,Asistent,Noapte,1
+22,Personal_22,Asistent,Noapte,1
+23,Personal_23,Asistent,Zi,0
+24,Personal_24,Medic Urgentist,Noapte,0
+25,Personal_25,Medic Urgentist,Noapte,1
+26,Personal_26,Cardiolog,Noapte,1
+27,Personal_27,Brancardier,Zi,1
+28,Personal_28,Asistent,Zi,1
+29,Personal_29,Asistent,Noapte,1
+30,Personal_30,Cardiolog,Noapte,0
+31,Personal_31,Medic Urgentist,Zi,1
+32,Personal_32,Asistent,Zi,0
+33,Personal_33,Asistent,Noapte,0
+34,Personal_34,Asistent,Zi,1
+35,Personal_35,Asistent,Noapte,0
+36,Personal_36,Medic Urgentist,Noapte,0
+37,Personal_37,Asistent,Zi,0
+38,Personal_38,Medic Urgentist,Zi,0
+39,Personal_39,Asistent,Noapte,0
+40,Personal_40,Chirurg,Noapte,0
+41,Personal_41,Asistent,Noapte,1
+42,Personal_42,Cardiolog,Zi,0
+43,Personal_43,Medic Urgentist,Zi,1
+44,Personal_44,Medic Urgentist,Zi,0
+45,Personal_45,Asistent,Zi,0
+46,Personal_46,Asistent,Noapte,1
+47,Personal_47,Medic Urgentist,Zi,1
+48,Personal_48,Asistent,Zi,1
+49,Personal_49,Asistent,Zi,0
+50,Personal_50,Medic Urgentist,Zi,1

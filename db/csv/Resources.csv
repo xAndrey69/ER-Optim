@@ -1,0 +1,101 @@
+ResourceID,ResourceType,Location,IsAvailable
+1,Defibrilator,Reanimare 2,0
+2,Ecograf Mobil,Reanimare 5,0
+3,Ventilator,Camera Trauma 3,0
+4,Targa,Depozit 1,0
+5,Ecograf Mobil,Reanimare 2,0
+6,Ventilator,Reanimare 4,0
+7,Ventilator,Depozit 4,1
+8,Ecograf Mobil,Hol UPU 1,1
+9,Ventilator,Camera Consult 4,0
+10,Ecograf Mobil,Hol UPU 1,1
+11,Ecograf Mobil,Camera Consult 4,0
+12,Pat ATI,Reanimare 1,0
+13,Pat ATI,Camera Trauma 4,1
+14,Targa,Camera Consult 4,0
+15,Ventilator,Depozit 5,1
+16,Ventilator,Camera Trauma 5,0
+17,Defibrilator,Camera Consult 3,0
+18,Ventilator,Depozit 4,0
+19,Targa,Depozit 4,0
+20,Targa,Camera Trauma 3,0
+21,Pat ATI,Camera Trauma 3,1
+22,Aparat EKG,Hol UPU 1,1
+23,Ecograf Mobil,Reanimare 2,1
+24,Pat ATI,Camera Trauma 1,0
+25,Ecograf Mobil,Hol UPU 2,0
+26,Ecograf Mobil,Hol UPU 1,1
+27,Ventilator,Reanimare 4,1
+28,Ecograf Mobil,Camera Trauma 2,0
+29,Defibrilator,Reanimare 2,1
+30,Aparat EKG,Hol UPU 3,1
+31,Targa,Reanimare 4,1
+32,Ventilator,Camera Consult 4,1
+33,Aparat EKG,Camera Trauma 2,0
+34,Defibrilator,Camera Trauma 4,0
+35,Ventilator,Hol UPU 2,1
+36,Aparat EKG,Depozit 2,0
+37,Pat ATI,Reanimare 5,1
+38,Pat ATI,Depozit 1,1
+39,Ecograf Mobil,Hol UPU 1,0
+40,Ventilator,Hol UPU 2,0
+41,Targa,Reanimare 5,1
+42,Ventilator,Depozit 3,0
+43,Ecograf Mobil,Hol UPU 5,1
+44,Pat ATI,Camera Trauma 5,0
+45,Targa,Depozit 3,0
+46,Ventilator,Hol UPU 2,1
+47,Ecograf Mobil,Hol UPU 3,0
+48,Ventilator,Depozit 3,0
+49,Defibrilator,Hol UPU 4,0
+50,Ecograf Mobil,Camera Trauma 3,1
+51,Pat ATI,Depozit 2,1
+52,Ecograf Mobil,Reanimare 1,1
+53,Ventilator,Reanimare 3,0
+54,Ecograf Mobil,Camera Consult 4,0
+55,Ecograf Mobil,Reanimare 2,0
+56,Ventilator,Camera Consult 4,0
+57,Ecograf Mobil,Reanimare 3,1
+58,Ecograf Mobil,Reanimare 5,1
+59,Targa,Depozit 1,0
+60,Pat ATI,Depozit 1,1
+61,Targa,Hol UPU 4,1
+62,Ventilator,Hol UPU 3,1
+63,Targa,Camera Consult 5,0
+64,Defibrilator,Hol UPU 1,0
+65,Pat ATI,Camera Trauma 1,1
+66,Pat ATI,Camera Consult 2,0
+67,Defibrilator,Reanimare 4,1
+68,Aparat EKG,Depozit 5,1
+69,Ecograf Mobil,Reanimare 2,0
+70,Targa,Depozit 2,0
+71,Aparat EKG,Camera Trauma 4,0
+72,Defibrilator,Camera Trauma 2,0
+73,Aparat EKG,Hol UPU 4,0
+74,Aparat EKG,Hol UPU 2,0
+75,Ecograf Mobil,Camera Trauma 3,1
+76,Ecograf Mobil,Reanimare 4,1
+77,Ecograf Mobil,Camera Trauma 2,1
+78,Ventilator,Camera Consult 1,1
+79,Pat ATI,Hol UPU 2,1
+80,Aparat EKG,Reanimare 4,1
+81,Pat ATI,Camera Trauma 2,0
+82,Ecograf Mobil,Reanimare 1,1
+83,Ventilator,Reanimare 3,0
+84,Aparat EKG,Camera Consult 2,1
+85,Defibrilator,Camera Trauma 3,1
+86,Targa,Camera Consult 5,0
+87,Ventilator,Camera Consult 1,0
+88,Ecograf Mobil,Camera Consult 3,1
+89,Ecograf Mobil,Hol UPU 4,1
+90,Aparat EKG,Reanimare 4,0
+91,Defibrilator,Hol UPU 5,1
+92,Aparat EKG,Reanimare 1,1
+93,Pat ATI,Depozit 2,1
+94,Ecograf Mobil,Reanimare 5,1
+95,Pat ATI,Reanimare 3,0
+96,Aparat EKG,Camera Consult 4,0
+97,Targa,Hol UPU 3,0
+98,Defibrilator,Depozit 5,0
+99,Ecograf Mobil,Reanimare 5,1
+100,Ecograf Mobil,Depozit 3,1
