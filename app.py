@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from src.gemini_api import ask_gemini
+from src.gemini_api import generate_sql_from_text
 from src.database import get_db_connection
 
 # Configurările de bază ale paginii
@@ -111,17 +111,31 @@ elif btn5:
 
 st.divider()
 
-# --- ZONA ASISTENȚĂ AI (GEMINI) ---
-st.header("Modul de Asistență AI (Gemini)")
 
-user_input = st.text_input("Introdu un prompt pentru AI:", placeholder="Ex: Cum eficientizăm triajul pentru pacienții de cod Roșu?")
+# --- ZONA ASISTENȚĂ AI TEXT-TO-SQL (GEMINI) ---
+st.header("🧠 Căutare Inteligentă (Gemini Text-to-SQL)")
+st.write("Spune-mi ce date vrei să afli, iar Gemini va scrie și va rula codul SQL pentru tine!")
 
-if st.button("Trimite către Gemini"):
-    if user_input:
-        with st.spinner("Gemini procesează cererea..."):
-            rezultat = ask_gemini(user_input)
+user_input_ai = st.text_input("Caută în limbaj natural:", placeholder="Ex: Arată-mi toți doctorii care sunt pe tura de zi.")
+
+if st.button("Transformă în SQL și Caută"):
+    if user_input_ai:
+        with st.spinner("Gemini gândește și generează interogarea SQL..."):
             
-            st.success("Răspuns generat cu succes!")
-            st.write(rezultat)
+            # 1. AI-ul generează textul SQL
+            generated_sql = generate_sql_from_text(user_input_ai)
+            
+            if "Eroare AI" in generated_sql:
+                st.error("A apărut o eroare la generarea codului cu Gemini.")
+                st.write(generated_sql)
+            else:
+                # 2. Afișăm codul generat ca să impresionăm juriul
+                st.info("💡 Codul SQL generat automat de Gemini:")
+                st.code(generated_sql, language="sql")
+                
+                # 3. RULĂM CODUL în Azure folosind funcția noastră deja existentă!
+                st.write("### 📊 Rezultatele extrase din baza de date:")
+                ruleaza_si_afiseaza_query(generated_sql)
+                
     else:
-        st.warning("Te rog să introduci un prompt înainte de a apăsa butonul.")
+        st.warning("Te rog să introduci o dorință înainte de a apăsa butonul.")
