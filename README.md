@@ -1,4 +1,4 @@
-# ER-Optim 🏥 
+# ER-Optim 
 **Sistem Inteligent de Triaj și Management al Resurselor pentru UPU**
 
 Proiect dezvoltat în cadrul **Hackathon Data Journey 2026** .
